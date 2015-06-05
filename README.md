@@ -10,9 +10,9 @@ All data processing should be implemented within the browser, without any backen
 JavaScript application that is able to perform all described operations.
 
 ## Requirements ##
-Browser support: Firefox, Chrome
-Supported image formats: jpg, png
-Careful code structure
-Commented code
-No third-party code
-Basic UI that allows to test the solution
+* Browser support: Firefox, Chrome
+* Supported image formats: jpg, png
+* Careful code structure
+* Commented code
+* No third-party code
+* Basic UI that allows to test the solution
