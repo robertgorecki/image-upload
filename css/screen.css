@@ -1,0 +1,52 @@
+body {
+	margin: 0;
+	padding: 10px 20px;
+	background-color: #fff;
+	color: #888;
+}
+
+h1 {
+	font-size: 25px;
+}
+
+.drop-zone {
+	margin: 25px 0;
+	padding: 25px;
+	border: 2px dashed #bbb;
+	font-size: 20px;
+	text-align: center;
+}
+
+.images-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.images-list li {
+	position: relative;
+	float: left;
+	border: 2px dashed #bbb;
+	margin: 0 10px 10px 0;
+	padding: 5px;
+}
+
+.images-list img {
+	cursor: pointer;
+}
+
+.images-list .zoom {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+.images-list li:hover .zoom {
+	display: block;
+	background: #fff url("../img/zoom.png") 50% 50% no-repeat;
+	opacity: 0.5;
+}

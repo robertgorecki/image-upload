@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Image upload</title>
+		<link rel="stylesheet" type="text/css" href="css/screen.css">
+	</head>
+	<body>
+		<div class="upload-app"></div>
+
+		<script id="upload-template" type="text/x-template">
+			<h1>Image upload</h1>
+			<input type="file" class="file" name="files[]" multiple />
+			<div class="drop-zone">Drop images here</div>
+			<output id="list"></output>
+		</script>
+		<script id="collection-template" type="text/x-template">
+			<ul class="images-list"></ul>
+		</script>
+		<script id="image-template" type="text/x-template">
+			<span class="zoom"></span>
+		</script>
+		<script src="js/UploadApp.js"></script>
+		<script src="js/init.js"></script>
+	</body>
+</html>
